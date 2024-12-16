@@ -40,6 +40,7 @@ public class NetworkClientV5 implements AutoCloseable{
 
     public void initError(String data) {
         if (data.contains("error1")) {
+            // 추가
             connectError = true;
         }
         if (data.contains("error2")) {

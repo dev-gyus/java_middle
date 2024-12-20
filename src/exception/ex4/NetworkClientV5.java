@@ -24,6 +24,7 @@ public class NetworkClientV5 implements AutoCloseable{
     }
 
     public void send(String data) throws SendExceptionV4 {
+        // test
         if (sendError) {
             throw new SendExceptionV4(data, address + "서버에 데이터 전송 실패: " + data);
 

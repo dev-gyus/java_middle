@@ -17,10 +17,10 @@ public class ArrayMain1 {
         arr[2] = 10;
         System.out.println(Arrays.toString(arr));
 
-        System.out.println("==index 조회: O(1)==");
+        System.out.println("==index 조회: O(1)== ");
         System.out.println("arr[2] = " + arr[2]);
 
-        System.out.println("==배열 검색: O(n)==");
+        System.out.println("==배열 검색: O(n)== ");
         System.out.println(Arrays.toString(arr));
         int value = 10;
         for (int i = 0; i < arr.length; i++) {

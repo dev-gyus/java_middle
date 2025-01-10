@@ -1,6 +1,10 @@
 package collection.link;
 
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.concurrent.SynchronousQueue;
+
 public class MyLinkedListV2Main {
     public static void main(String[] args) {
         MyLinkedListV2 list = new MyLinkedListV2();
@@ -25,5 +29,8 @@ public class MyLinkedListV2Main {
         Object removed2 = list.remove(0);
         System.out.println("removed(0) = " + removed2);
         System.out.println(list);
+
+
+
     }
 }

@@ -46,7 +46,7 @@ public class MyListPerformanceTest {
         System.out.println("앞에 추가 - 크기: " + size + ", 계산 시간: " + (endTime - startTime) + "ms");
     }
 
-    // 중간 인덱스 지점 추가
+    // 중간 인덱스 지점 추가2
     private static void addMid(MyList<Integer> list, int size) {
         long startTime = System.currentTimeMillis();
         for (int i = 0; i < size; i++) {

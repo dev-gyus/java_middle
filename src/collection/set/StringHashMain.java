@@ -7,6 +7,7 @@ public class StringHashMain {
         // char
         char charA = 'A';
         char charB = 'B';
+        // 출력
         System.out.println("charA = " + (int) charA);
         System.out.println("charB = " + (int) charB);
 

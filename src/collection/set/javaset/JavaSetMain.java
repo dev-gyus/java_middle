@@ -10,6 +10,7 @@ public class JavaSetMain {
         Set<String> linkedHashSet = new LinkedHashSet<>();
         // 정렬된 상태로 유지
         Set<String> treeSet = new TreeSet<>();
+        treeSet.hashCode();
 
         run(hashSet);
         run(linkedHashSet);

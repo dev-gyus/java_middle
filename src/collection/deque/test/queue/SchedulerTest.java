@@ -18,7 +18,7 @@ public class SchedulerTest {
         if (scheduler.getRemainingTasks() > 0) {
             scheduler.processNextTask();
         } else {
-            System.out.println("No more tasks");
+            System.out.println("No more tasks ");
         }
     }
 }
